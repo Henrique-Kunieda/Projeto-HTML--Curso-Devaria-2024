@@ -13,6 +13,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="professores.html">Professores</a></li>
             <li><a href='faleConosco.html'>Fale Conosco</a></li>
+            <li><a href="DevStars.html">DevStars</a></li>
         </ul>
     </nav>
     </header>
@@ -28,7 +29,31 @@
             </p>
             <p>
                 <label>Comentário:</label>
-             <textarea name="Comentario" rows="4" cols="50"></textarea>
+             <textarea name="Comentario" rows="4" cols="50" required="true"></textarea>
+            </p>
+            <p>
+                <label>Sexo:</label>
+                <input type="radio" name="Sexo"/><label>Masculino</label>
+                <input type="radio" name="Sexo"/><label>Feminino</label>
+            </p>
+            <p>
+                <label>Aonde nos conheceu?</label>
+                <select name="Conheceu">
+                    <option selected>Instagram</option>
+                    <option>Google</option>
+                    <option>Amigos</option>
+                    <option>Outro</option>
+                </select>
+            </p>
+
+            <p>
+                <input type="checkbox" name="Novidades"/>
+                <label>Aceito receber novidades do site</label>
+            </p>
+
+            <p>
+                <input type="submit" name="Enviar" value="Enviar">
+                <input type="reset" name="Limpar" value="Limpar">
             </p>
 
            </form>
