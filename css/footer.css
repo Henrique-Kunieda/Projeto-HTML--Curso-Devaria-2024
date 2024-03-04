@@ -1,3 +1,9 @@
 footer{
-    color: #AE6BF2;
+    color: blueviolet;
+    display: block;
+padding: 20px 25px;
+border-top: 1px solid white ;
+
+text-align: center;
 }
+
