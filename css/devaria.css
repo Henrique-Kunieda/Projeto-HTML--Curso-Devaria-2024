@@ -1,7 +1,7 @@
 /*estilos globais do site*/
 
 html{
-    height: 100px;
+    height: 100%;
 }
 
 body{
@@ -14,3 +14,22 @@ figcaption{
     color: blueviolet;
 }
 
+.title{
+    padding: 0 20px ;
+    font-size: 1.75em;
+    text-transform: uppercase;
+    color: azure
+}
+
+h1.title{
+   margin: 40px auto 20px;
+}
+
+h2.title{
+    margin: 40px auto 20px;
+}
+
+h3.title{
+    margin: 40px auto 20px;
+    font-size: 1.2em;
+}
