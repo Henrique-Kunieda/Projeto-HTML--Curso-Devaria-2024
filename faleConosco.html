@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/devaria.css" />
     <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/fala-conosco.css" />
 </head>
 <body>
     <header>
@@ -23,27 +24,31 @@
     </nav>
     </header>
     <main>
-        <h1  class="title">Fale Conosco!</h1>
+        <h1  class="title text-center " >Fale Conosco!</h1>
 
-        <h2  class="title">Para nos enviar suas dúvidas preencha este formúlario!!</h2>
+        <h2  class="title text-center ">Para nos enviar suas dúvidas preencha este formúlario!!</h2>
         <section>
-           <form action="index.html">
-            <p>
+           <form action="index.html" class="contact-form  margin-horizontal-20px  ">
+            <div>
                 <label>Nome:</label><input type="text" name="Nome">
-            </p>
-            <p>
+            </div>
+
+            <div>
                 <label>Email:</label><input type="text" name="Email">
-            </p>
-            <p>
+            </div>
+
+            <div>
                 <label>Comentário:</label>
              <textarea name="Comentario" rows="4" cols="50" required="true"></textarea>
-            </p>
-            <p>
+            </div>
+
+            <div>
                 <label>Sexo:</label>
-                <input type="radio" name="Sexo"/><label>Masculino</label>
-                <input type="radio" name="Sexo"/><label>Feminino</label>
-            </p>
-            <p>
+                <input type="radio" name="Sexo"/><span>Masculino</span>
+                <input type="radio" name="Sexo"/><span>Feminino</span>
+            </div>
+
+            <div>
                 <label>Aonde nos conheceu?</label>
                 <select name="Conheceu">
                     <option selected>Instagram</option>
@@ -51,17 +56,17 @@
                     <option>Amigos</option>
                     <option>Outro</option>
                 </select>
-            </p>
+            </div>
 
-            <p>
+            <div>
                 <input type="checkbox" name="Novidades"/>
-                <label>Aceito receber novidades do site</label>
-            </p>
+                <span>Aceito receber novidades do site</span>
+            </div>
 
-            <p>
+            <div>
                 <input type="submit" name="Enviar" value="Enviar">
                 <input type="reset" name="Limpar" value="Limpar">
-            </p>
+            </div>
 
            </form>
         </section>
